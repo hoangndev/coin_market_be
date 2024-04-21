@@ -15,15 +15,15 @@ server.get("/messages", (req, res) => {
 
 // POST method for messages
 server.post("/messages", (req, res) => {
-  const { text, user } = req.body;
-  if (!text || !user) {
+  const { message, user } = req.body;
+  if (!message || !user) {
     res.status(400).json({ error: "Text and user are required fields" });
     return;
   }
 
   const newMessage = {
     id: Date.now(),
-    text,
+    message,
     user,
     createdAt: new Date().toISOString(),
   };
