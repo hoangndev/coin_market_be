@@ -1,0 +1,22 @@
+{
+  "messages": [
+    {
+      "id": "05e2",
+      "name": "Nguyen Hoang",
+      "message": "Xin chao cac ban",
+      "time": "21:09:02"
+    },
+    {
+      "id": "04e2",
+      "name": "Vu Hoang Long",
+      "message": "Hello!!!",
+      "time": "21:09:02"
+    },
+    {
+      "id": "05v5",
+      "name": "Nguyen Nam Kien",
+      "message": "Chao ban",
+      "time": "21:09:02"
+    }
+  ]
+}
